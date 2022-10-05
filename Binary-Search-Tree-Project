@@ -1,0 +1,13 @@
+---------------------
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+İlk değer 7 olduğundan root 7 alınır.
+5 değeri roottan küçük olduğundan 7'nin sol tarafına geçer.
+1 değeri roottan küçük olduğundan 7'nin sol tarafında 5'e gelir ve 5'ten de küçük olduğu için 5'in oluna geçer.
+8 değeri roottan büyük olduğu için 7'nin soluna yazarız.
+3 değeri roottan küçük, 5ten küçük ve 1'den büyük olduğu için 1'in soluna yazarız.
+6 değeri roottan küçük 5ten büyük olduğu için 5'in soluna yazarız.
+0 değeri roottan küçük, 5ten küçük ve 1'den küçük olduğu için 1'in soluna yazarız.
+9 değeri roottan büyük ve 8'den büyük olduğu için 8'in soluna yazarız.
+4 değeri roottan küçük 5'ten küçük, 1'den büyük ve 3'ten de büyük olduğu için 3'ün soluna yazarız.
+2 değeri roottan küçük, 5ten küçük, 1'den büyük ama 3'ten küçük olduğu için 3'in soluna yazarız.
